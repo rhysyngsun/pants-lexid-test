@@ -1,0 +1,11 @@
+[GLOBAL]
+pants_version = "2.14.1"
+backend_packages = [
+  'pants.backend.python',
+]
+
+[python]
+enable_resolves = true
+
+[python.resolves]
+python-default = "build-support/lockfiles/python-default.lockfile" 
